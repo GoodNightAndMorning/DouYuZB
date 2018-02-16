@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		07580EE02035BB160033120E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580EDF2035BB160033120E /* AppDelegate.swift */; };
-		07580EE22035BB160033120E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580EE12035BB160033120E /* ViewController.swift */; };
-		07580EE52035BB160033120E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07580EE32035BB160033120E /* Main.storyboard */; };
 		07580EE72035BB160033120E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07580EE62035BB160033120E /* Assets.xcassets */; };
-		07580EEA2035BB160033120E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07580EE82035BB160033120E /* LaunchScreen.storyboard */; };
 		07580EF52035BB160033120E /* DouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580EF42035BB160033120E /* DouYuZBTests.swift */; };
 		07580F002035BB160033120E /* DouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580EFF2035BB160033120E /* DouYuZBUITests.swift */; };
+		07580F322035C7E40033120E /* DYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F312035C7E40033120E /* DYHomeViewController.swift */; };
+		07580F342035C8060033120E /* DYLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F332035C8060033120E /* DYLiveViewController.swift */; };
+		07580F362035C8270033120E /* DYAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F352035C8270033120E /* DYAttentionViewController.swift */; };
+		07580F382035C84D0033120E /* DYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F372035C84D0033120E /* DYMineViewController.swift */; };
+		07580F3A2035C8F00033120E /* DYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F392035C8F00033120E /* DYTabBarController.swift */; };
+		07580F3C2035CC130033120E /* DYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F3B2035CC130033120E /* DYNavigationController.swift */; };
+		07580F3E2035D8C70033120E /* DYHomeTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F3D2035D8C70033120E /* DYHomeTopBarView.swift */; };
+		07580F402035DE010033120E /* DYHomeTopBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F3F2035DE010033120E /* DYHomeTopBarCollectionViewCell.swift */; };
+		07580F422035E5EA0033120E /* DYHomeTopBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07580F412035E5EA0033120E /* DYHomeTopBarModel.swift */; };
 		2E8B2DEEBFEB55BC99078096 /* Pods_DouYuZBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EFEA7323F429D313206D47 /* Pods_DouYuZBUITests.framework */; };
 		30BAA964355658ADB1D5374C /* Pods_DouYuZB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B748042708D5D0C8D6301251 /* Pods_DouYuZB.framework */; };
 		7C8A733EAB1274F120556D6B /* Pods_DouYuZBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C094AD076E3E316CCFCCAA9D /* Pods_DouYuZBTests.framework */; };
@@ -39,10 +45,7 @@
 /* Begin PBXFileReference section */
 		07580EDC2035BB160033120E /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07580EDF2035BB160033120E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07580EE12035BB160033120E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07580EE42035BB160033120E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07580EE62035BB160033120E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07580EE92035BB160033120E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07580EEB2035BB160033120E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07580EF02035BB160033120E /* DouYuZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07580EF42035BB160033120E /* DouYuZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBTests.swift; sourceTree = "<group>"; };
@@ -50,6 +53,15 @@
 		07580EFB2035BB160033120E /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07580EFF2035BB160033120E /* DouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBUITests.swift; sourceTree = "<group>"; };
 		07580F012035BB160033120E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07580F312035C7E40033120E /* DYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYHomeViewController.swift; sourceTree = "<group>"; };
+		07580F332035C8060033120E /* DYLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYLiveViewController.swift; sourceTree = "<group>"; };
+		07580F352035C8270033120E /* DYAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYAttentionViewController.swift; sourceTree = "<group>"; };
+		07580F372035C84D0033120E /* DYMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYMineViewController.swift; sourceTree = "<group>"; };
+		07580F392035C8F00033120E /* DYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYTabBarController.swift; sourceTree = "<group>"; };
+		07580F3B2035CC130033120E /* DYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYNavigationController.swift; sourceTree = "<group>"; };
+		07580F3D2035D8C70033120E /* DYHomeTopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYHomeTopBarView.swift; sourceTree = "<group>"; };
+		07580F3F2035DE010033120E /* DYHomeTopBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYHomeTopBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		07580F412035E5EA0033120E /* DYHomeTopBarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DYHomeTopBarModel.swift; sourceTree = "<group>"; };
 		14C06C6656AAE073E2FCA239 /* Pods-DouYuZB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuZB.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuZB/Pods-DouYuZB.release.xcconfig"; sourceTree = "<group>"; };
 		1E126FD3F7C47AFC89A1A3AE /* Pods-DouYuZBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuZBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouYuZBTests/Pods-DouYuZBTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35EFEA7323F429D313206D47 /* Pods_DouYuZBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouYuZBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,11 +126,11 @@
 		07580EDE2035BB160033120E /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				07580F202035C7A80033120E /* Class */,
 				07580EDF2035BB160033120E /* AppDelegate.swift */,
-				07580EE12035BB160033120E /* ViewController.swift */,
-				07580EE32035BB160033120E /* Main.storyboard */,
+				07580F392035C8F00033120E /* DYTabBarController.swift */,
+				07580F3B2035CC130033120E /* DYNavigationController.swift */,
 				07580EE62035BB160033120E /* Assets.xcassets */,
-				07580EE82035BB160033120E /* LaunchScreen.storyboard */,
 				07580EEB2035BB160033120E /* Info.plist */,
 			);
 			path = DouYuZB;
@@ -140,6 +152,148 @@
 				07580F012035BB160033120E /* Info.plist */,
 			);
 			path = DouYuZBUITests;
+			sourceTree = "<group>";
+		};
+		07580F202035C7A80033120E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				07580F252035C7A80033120E /* Home */,
+				07580F292035C7A80033120E /* Live */,
+				07580F212035C7A80033120E /* Attention */,
+				07580F2D2035C7A80033120E /* Mine */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		07580F212035C7A80033120E /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				07580F222035C7A80033120E /* Model */,
+				07580F232035C7A80033120E /* View */,
+				07580F242035C7A80033120E /* ViewController */,
+			);
+			path = Attention;
+			sourceTree = "<group>";
+		};
+		07580F222035C7A80033120E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07580F232035C7A80033120E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07580F242035C7A80033120E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07580F352035C8270033120E /* DYAttentionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07580F252035C7A80033120E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				07580F262035C7A80033120E /* Model */,
+				07580F272035C7A80033120E /* View */,
+				07580F282035C7A80033120E /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		07580F262035C7A80033120E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07580F412035E5EA0033120E /* DYHomeTopBarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07580F272035C7A80033120E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				07580F3D2035D8C70033120E /* DYHomeTopBarView.swift */,
+				07580F3F2035DE010033120E /* DYHomeTopBarCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07580F282035C7A80033120E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07580F312035C7E40033120E /* DYHomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07580F292035C7A80033120E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				07580F2A2035C7A80033120E /* Model */,
+				07580F2B2035C7A80033120E /* View */,
+				07580F2C2035C7A80033120E /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		07580F2A2035C7A80033120E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07580F2B2035C7A80033120E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07580F2C2035C7A80033120E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07580F332035C8060033120E /* DYLiveViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		07580F2D2035C7A80033120E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				07580F2E2035C7A80033120E /* Model */,
+				07580F2F2035C7A80033120E /* View */,
+				07580F302035C7A80033120E /* ViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		07580F2E2035C7A80033120E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07580F2F2035C7A80033120E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07580F302035C7A80033120E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07580F372035C84D0033120E /* DYMineViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		2F1613E0BA26C9B17F219FD2 /* Pods */ = {
@@ -236,6 +390,7 @@
 		07580ED42035BB160033120E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DY;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = zsx;
@@ -281,9 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07580EEA2035BB160033120E /* LaunchScreen.storyboard in Resources */,
 				07580EE72035BB160033120E /* Assets.xcassets in Resources */,
-				07580EE52035BB160033120E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +595,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-DouYuZB/Pods-DouYuZB-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,7 +617,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07580EE22035BB160033120E /* ViewController.swift in Sources */,
+				07580F362035C8270033120E /* DYAttentionViewController.swift in Sources */,
+				07580F342035C8060033120E /* DYLiveViewController.swift in Sources */,
+				07580F3E2035D8C70033120E /* DYHomeTopBarView.swift in Sources */,
+				07580F322035C7E40033120E /* DYHomeViewController.swift in Sources */,
+				07580F3C2035CC130033120E /* DYNavigationController.swift in Sources */,
+				07580F402035DE010033120E /* DYHomeTopBarCollectionViewCell.swift in Sources */,
+				07580F382035C84D0033120E /* DYMineViewController.swift in Sources */,
+				07580F422035E5EA0033120E /* DYHomeTopBarModel.swift in Sources */,
+				07580F3A2035C8F00033120E /* DYTabBarController.swift in Sources */,
 				07580EE02035BB160033120E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,25 +660,6 @@
 			targetProxy = 07580EFC2035BB160033120E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		07580EE32035BB160033120E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07580EE42035BB160033120E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07580EE82035BB160033120E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07580EE92035BB160033120E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		07580F022035BB160033120E /* Debug */ = {
@@ -720,6 +864,7 @@
 				07580F062035BB160033120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07580F072035BB160033120E /* Build configuration list for PBXNativeTarget "DouYuZBTests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +873,7 @@
 				07580F092035BB160033120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07580F0A2035BB160033120E /* Build configuration list for PBXNativeTarget "DouYuZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -736,6 +882,7 @@
 				07580F0C2035BB160033120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
